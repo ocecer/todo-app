@@ -119,8 +119,8 @@ function editTask(taskId, taskName) {
   taskInput.focus();
   taskInput.classList.add("active");
 
-  console.log("edit id:", editId);
-  console.log("edit mode", isEditTask);
+  // console.log("edit id:", editId);
+  // console.log("edit mode", isEditTask);
 }
 
 btnClear.addEventListener("click", function () {
